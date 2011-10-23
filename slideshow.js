@@ -423,7 +423,7 @@ self.prototype = {
 			// Strange FF bug: scrollHeight doesn't work properly with overflow:hidden
 			var previousStyle = slide.getAttribute('style');
       var up = percent;
-      var down = min_value;
+      var down = 35;
       var current = (up + down)/2;
 
 			slide.style.overflow = 'auto';
